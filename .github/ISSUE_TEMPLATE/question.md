@@ -1,6 +1,6 @@
 ---
 name: Question 🤔
-about: Usage question or discussion about Gatsby Material Starter.
+about: Usage question or discussion about Fiserv Fall Conference.
 ---
 
 <!--

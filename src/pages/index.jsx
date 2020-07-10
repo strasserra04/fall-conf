@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
 import PostListing from "../components/PostListing";
+import MeetingList from "../components/MeetingList";
 import SEO from "../components/SEO";
 import config from "../../data/SiteConfig";
 
@@ -18,6 +19,7 @@ class Index extends React.Component {
           </Helmet>
           <SEO postEdges={postEdges} />
           <PostListing postEdges={postEdges} />
+          {/* <MeetingList /> */}
         </div>
       </Layout>
     );
