@@ -27,5 +27,4 @@ class UserLinks extends Component {
     return <div className="user-links">{this.getLinkElements()}</div>;
   }
 }
-
 export default UserLinks;
