@@ -32,7 +32,7 @@ class Footer extends Component {
             <h4>
               Based on{" "}
               <a href="https://github.com/Vagr9K/gatsby-material-starter">
-                Gatsby Material Starter
+              Fiserv Fall Conference
               </a>.
             </h4>
           </div>
