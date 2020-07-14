@@ -9,6 +9,7 @@ class Toolbar extends Component {
       <div className="toolbar-actions">
         <div className="userlinks-container">
           <Link to="/account">Go to your account</Link>
+          <UserLinks config={config} />
         </div>
       </div>
     );
