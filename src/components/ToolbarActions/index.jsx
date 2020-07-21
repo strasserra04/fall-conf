@@ -4,12 +4,10 @@ import { Link } from "gatsby";
 
 class Toolbar extends Component {
   render() {
-    const { config } = this.props;
     return (
       <div className="toolbar-actions">
         <div className="userlinks-container">
           <Link to="/account">Go to your account</Link>
-          <UserLinks config={config} />
         </div>
       </div>
     );
