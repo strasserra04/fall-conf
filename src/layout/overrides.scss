@@ -12,9 +12,15 @@
 }
 
 header.md-toolbar {
-    width:10.667%;
+    width:100%;
+    background-color:#fff;
+    border-bottom: 1px solid #ff6600;
 }
 
 .md-drawer-relative {
     margin-left:0;
+}
+
+.md-text {
+    color: #fff;
 }

@@ -10,9 +10,6 @@ function GetNavList(config) {
       component: Link,
       to: "/"
     },
-    {
-      divider: true
-    }
   ];
 
   if (config.userLinks) {
